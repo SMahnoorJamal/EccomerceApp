@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.28.3",
+    "@react-native/gradle-plugin": "^0.81.1",
     "@react-native/metro-config": "^0.81.0",
     "@reduxjs/toolkit": "^2.2.0",
     "axios": "^1.7.0",

@@ -1,3 +1,4 @@
+def FLIPPER_VERSION = "0.182.0"
 apply plugin: "com.android.application"
 apply plugin: "com.facebook.react"
 
@@ -119,5 +120,3 @@ dependencies {
         implementation jscFlavor
     }
 }
-
-apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)
